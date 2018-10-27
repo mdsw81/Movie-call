@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calling All Movies</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div id="container">
+    <h1>Movie Gifs</h1>
+
+    <!-- Movie titles go here -->
+    <div id="movies-buttons">
+
+    </div>
+
+    <!-- Using a form so that the user can hit enter instead of clicking the button if they want -->
+    <form id="movie-form">
+        <label for="movie-input">Search for a Movie</label>
+        <input type="text" id="movie-input"><br>
+
+        <!-- Button triggers new movie to be added -->
+        <input id="add-movie" type="submit" value="Search for a Movie">
+    </form>
+
+    <div id="movies">
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Movie-call.js"></script>
+
+</body>
+</html>
